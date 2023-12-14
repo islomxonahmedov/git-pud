@@ -1,2 +1,1 @@
-# git-pud
-amaliy
+# React + Vite empty project
