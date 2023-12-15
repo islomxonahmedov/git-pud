@@ -1,0 +1,135 @@
+.secton1 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+.secton1 .box1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.secton1 .box1 h1 {
+    font-size: 60px;
+}
+
+.secton1 .box1 h1 p {
+    color: rgba(18, 16, 12, 0.70);
+}
+
+.secton1 .box1 .boxx {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.secton1 .box1 .boxx button {
+    border-radius: 16px;
+    background: #FFAE33;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    border: none;
+    padding: 10px 40px;
+}
+
+.secton1 .box1 .boo {
+    display: flex;
+    gap: 20px;
+}
+
+.secton1 .box1 img {
+    width: 40px;
+}
+
+.secton1 .box2 {
+    width: 50%;
+}
+
+.secton1 .box2 img {
+    width: 70%;
+}
+
+@media (max-width: 1300px) {
+
+    .secton1 .box1 {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .secton1 .box1 h1 {
+        font-size: 40px;
+    }
+
+    .secton1 .box1 img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 10240px) {
+
+    .secton1 .box1 {
+        width: 38%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .secton1 .box1 h1 {
+        font-size: 40px;
+    }
+
+    .secton1 .box1 img {
+        width: 30px;
+    }
+
+    .secton1 .box1 .boxx {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .secton1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 20px;
+        padding: 0 60px;
+    }
+
+    .secton1 .box2 img {
+        width: 200%;
+    }
+
+    .secton1 .box1 {
+        width: 100%;
+        text-align: center;
+    }
+    .secton1 .box1 .boo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .secton1 .box1 .boxx {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+@media (max-width: 430px) {
+    .secton1 .box1 {
+        font-size: 11px;
+    }
+}
