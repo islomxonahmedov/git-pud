@@ -22,7 +22,9 @@ function Foter() {
           <FiMessageCircle className="icon nn"/>
         </div>
       </div>
+      
     </div>
+    
   )
 }
 export function Footer({ home, home1, home2, home3, home4, home5, home6, home7 }) {
@@ -30,12 +32,12 @@ export function Footer({ home, home1, home2, home3, home4, home5, home6, home7 }
     <div className="boxfooter">
       <h2>{home}</h2>
       <li><NavLink className={"li"} to="/">{home1}</NavLink></li>
-      <li><NavLink className={"li"} to="Section1">{home2}</NavLink></li>
-      <li><NavLink className={"li"} to="Section2">{home3}</NavLink></li>
-      <li><NavLink className={"li"} to="Section5">{home4}</NavLink></li>
-      <li><NavLink className={"li"} to="Section3">{home5}</NavLink></li>
-      <li><NavLink className={"li"} to="Section4">{home6}</NavLink></li>
-      <li><NavLink className={"li"} to="Section6">{home7}</NavLink></li>
+      <li><NavLink className={"li"} to="/">{home2}</NavLink></li>
+      <li><NavLink className={"li"} to="/">{home3}</NavLink></li>
+      <li><NavLink className={"li"} to="/">{home4}</NavLink></li>
+      <li><NavLink className={"li"} to="/">{home5}</NavLink></li>
+      <li><NavLink className={"li"} to="/">{home6}</NavLink></li>
+      <li><NavLink className={"li"} to="/">{home7}</NavLink></li>
     </div>
   )
 }

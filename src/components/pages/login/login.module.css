@@ -1,59 +1,78 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.container{
-    width: 80.4.5%;
+
+.container {
+    width: 100%;
     height: 100vh;
     background-color: rgb(134, 80, 80);
-    padding:70px 0 0 20%;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 321;
 }
-.box1{
-    width: 70%;
+
+.box1 {
+    width: 900px;
     height: 500px;
     background-color: red;
+    box-shadow: 1px 1px 70px red;
+    margin: 0 auto;
+
 }
-.box1 h1{
-     position: relative;
-     top: 30px;
-     left: 70px;
-     color: white;
-     font-size: 40px;
+
+.box1 h1 {
+    position: relative;
+    top: 30px;
+    left: 70px;
+    color: white;
+    font-size: 40px;
 }
-.box1 h3{
+
+.box1 h3 {
     position: relative;
     top: 40px;
-    left: 70px; 
+    left: 70px;
     color: rgb(205, 192, 192);
 }
-.box1 h4{
+
+.box1 h4 {
     position: relative;
     top: 350px;
-    left: 70px; 
+    left: 70px;
     color: rgb(169, 157, 157);
     font-size: 20px;
 }
-.box1 h4 span{
+
+.box1 h4 span {
     color: white;
 
 }
+
 /* box2 */
-.box2{
+.box2 {
     position: relative;
     width: 400px;
     height: 600px;
     background-color: white;
-    left: 400px;
+    left: 170px;
     top: -550px;
     text-align: center;
+    margin: 0 auto;
+
 }
-.box2 h1{
+
+.box2 h1 {
     position: relative;
     top: 30px;
     color: red;
+
 }
-.box2 .div{
+
+.box2 .div {
     position: relative;
     width: 80px;
     height: 80px;
@@ -63,14 +82,16 @@
     left: 160px;
     box-shadow: 1px 1px 30px rgb(124, 122, 122);
 }
-.box2 .forget{
+
+.box2 .forget {
     position: relative;
     top: 220px;
     right: 170px;
     text-decoration: red;
     color: red;
 }
-.box2 .input2{
+
+.box2 .input2 {
     position: relative;
     top: 130px;
     font-size: 30px;
@@ -79,7 +100,8 @@
     padding: 0 0 0 10px;
     outline: none;
 }
-.box2 .input1{
+
+.box2 .input1 {
     position: relative;
     top: 100px;
     font-size: 30px;
@@ -89,7 +111,7 @@
     outline: none;
 }
 
-.box2 .button2{
+.box2 .button2 {
     position: relative;
     font-size: 20px;
     padding: 0 50px 5px 50px;
@@ -99,7 +121,8 @@
     top: 170px;
     left: 25px;
 }
-.box2 .button1{
+
+.box2 .button1 {
     position: relative;
     font-size: 20px;
     padding: 5px 150px;
@@ -108,4 +131,297 @@
     color: white;
     background-color: red;
     top: 170px;
+    box-shadow: 1px 1px 20px red;
+}
+.close{
+    color: white;
+    font-size: 50px;
+    margin-left: 85%;
+
+}
+
+@media (max-width: 1040px) {
+    .box2 {
+        position: relative;
+        width: 400px;
+        height: 500px;
+        background-color: white;
+        left: 170px;
+        top: -500px;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .box2 .input1 {
+        top: 40px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.798);
+        padding: 0 0 0 10px;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .box2 .button2 {
+        font-size: 16px;
+        padding: 5px 10px 5px 10px;
+        box-shadow: 1px 1px 10px rgb(69, 68, 68);
+        border: none;
+        color: red;
+        top: 60px;
+        left: 25px;
+        border-radius: 20px;
+    }
+
+    .box2 .input2 {
+        top: 60px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.798);
+        padding: 0 0 0 10px;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .box2 .button1 {
+        font-size: 20px;
+        padding: 5px 80px;
+        border: none;
+        margin: 10px 0 40px 0;
+        color: white;
+        background-color: red;
+        top: 80px;
+        box-shadow: 1px 1px 20px red;
+        border-radius: 20px;
+    }
+
+    .box2 .forget {
+        position: relative;
+        top: 150px;
+        right: 170px;
+        text-decoration: red;
+        color: red;
+    }
+
+    .box2 .div {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+        border-radius: 50px;
+        top: 20px;
+        left: 160px;
+        box-shadow: 1px 1px 30px rgb(124, 122, 122);
+    }
+
+    .box2 h1 {
+        position: relative;
+        top: 10px;
+        color: red;
+
+    }
+
+    .box2 .forget {
+        position: relative;
+        top: 120px;
+        right: 110px;
+        text-decoration: red;
+        color: red;
+    }
+
+    .box1 {
+        width: 740px;
+        height: 500px;
+        background-color: red;
+        box-shadow: 1px 1px 70px red;
+        margin: 0 auto;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .box2 {
+        position: relative;
+        width: 400px;
+        height: 500px;
+        background-color: white;
+        left: 170px;
+        top: -500px;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .box2 .input1 {
+        top: 40px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.798);
+        padding: 0 0 0 10px;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .box2 .button2 {
+        display: none;
+    }
+
+    .box2 .input2 {
+        top: 60px;
+        font-size: 20px;
+        border: none;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.798);
+        padding: 0 0 0 10px;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .box2 .button1 {
+        font-size: 20px;
+        padding: 5px 80px;
+        border: none;
+        margin: 10px 0 40px 0;
+        color: white;
+        background-color: red;
+        top: 80px;
+        box-shadow: 1px 1px 20px red;
+        border-radius: 20px;
+    }
+
+    .box2 .div {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+        border-radius: 50px;
+        top: 20px;
+        left: 160px;
+        box-shadow: 1px 1px 30px rgb(124, 122, 122);
+    }
+
+    .box2 h1 {
+        position: relative;
+        top: 10px;
+        color: red;
+
+    }
+
+    .box2 .forget {
+        position: relative;
+        top: 50px;
+        right: 1px;
+        text-decoration: red;
+        color: red;
+    }
+
+    .box1 {
+        width: 450px;
+        height: 500px;
+        background-color: red;
+        box-shadow: 1px 1px 70px red;
+        margin: 0 auto;
+        z-index: 28;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box1 h1 {
+        position: relative;
+        top: 40px;
+        left: 20px;
+        font-size: 30px;
+    }
+
+    .box1 h3 {
+        position: relative;
+        top: 40px;
+        left: 20px;
+        color: rgb(205, 192, 192);
+    }
+
+    .box1 h4 {
+        position: relative;
+        top: 350px;
+        left: 20px;
+        color: rgb(169, 157, 157);
+        font-size: 20px;
+    }
+
+    .box2 {
+        position: relative;
+        width: 300px;
+        height: 280px;
+        background-color: white;
+        left: 18px;
+        top: -380px;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 58;
+
+    }
+
+    .box2 .div {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 531px) {
+    .box1 {
+        width: 300px;
+        height: 500px;
+        background-color: red;
+        box-shadow: 1px 1px 70px red;
+        margin: 0 auto;
+        z-index: 28;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box2 {
+        position: relative;
+        text-align: center;
+        width: 250px;
+        height: 280px;
+        background-color: white;
+        left: 0px;
+        top: -380px;
+        margin: 0 auto;
+        z-index: 58;
+    }
+
+    .box1 h1 {
+        position: relative;
+        top: 10px;
+        left: 0px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .box1 h3 {
+        position: relative;
+        top: 10px;
+        left: 0px;
+        color: rgb(205, 192, 192);
+    }
+
+    .box1 h4 {
+        position: relative;
+        top: 350px;
+        left: 0px;
+        color: rgb(169, 157, 157);
+        font-size: 20px;
+    }
+
+    .box1 h4 span {
+        color: white;
+
+    }
 }

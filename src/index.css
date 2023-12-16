@@ -81,3 +81,154 @@
   padding: 10px;
 
 }
+
+.navbar {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.toggle-bar {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-list li {
+  margin-right: 20px;
+}
+
+.navbar-list li:last-child {
+  margin-right: 0;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: rgba(18, 16, 12, 0.70);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-list li a:hover {
+  color: lightgray;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-list {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    border-radius: 20px;
+    background-color: rgb(150, 150, 150)
+  }
+
+  .navbar-list.active {
+    display: flex;
+  }
+
+  .navbar-list li {
+    margin: 10px 0;
+  }
+
+  .navbar-toggle {
+    display: flex;
+    color: #333;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 10px 0;
+    font-size: 11px;
+
+  }
+
+  .navbar .box1 img {
+    width: 70px;
+  }
+
+  .navbar .box2 {
+    display: flex;
+    gap: 20px;
+  }
+
+  .li {
+    color: rgba(18, 16, 12, 0.70);
+
+  }
+
+  .navbar .box3 button {
+    padding: 5px 20px;
+    font-size: 14px;
+    background: #12100C;
+    border: none;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .footer {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .footer1 {
+    padding: 20px 0;
+    gap: 20px;
+  }
+
+  .boxfooter {
+    gap: 10px;
+  }
+
+  .footer2 {
+    gap: 25%;
+    background: #f4f4f4;
+    padding: 40px 0 20px 0;
+  }
+
+  .icon {
+    color: #FFAD33;
+    font-size: 30px;
+  }
+
+  .nn {
+    background-color: #FFAD33;
+    color: #ffffff;
+    padding: 10px;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .footer1 {
+    display: none;
+  }
+  .footer2 {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10%;
+    background: #f4f4f4;
+    padding: 80px 0 50px 0;
+  }
+}
