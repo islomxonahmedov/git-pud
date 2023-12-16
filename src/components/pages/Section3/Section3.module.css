@@ -1,0 +1,60 @@
+.section3{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+    overflow: hidden;
+    align-items: center;
+    padding: 0 60px;
+    gap: 20px;
+}
+.section3 .box1{
+    width: 600px;
+    padding: 40px 0 0 0;
+}
+.section3 .box2 img{
+    width: 500px;
+}
+.section3 .box2 {
+    margin-right: 100px;
+}
+.section3 .box1 h1{
+    margin-bottom: 20px;
+
+}
+.section3 .box1 button{
+    width: 150px;
+    margin-top: 20px;
+    padding: 5px 0;
+    border-radius: 20px;
+    margin-left: 10px;
+    border: none;
+
+}
+.btn1{
+    background: #FFAE33;
+}
+.btn2{
+    background: #FFB0AE;
+}
+.section3 .box2{
+    width: 400px;
+}
+@media (max-width: 500px) {
+    .section3 .box2 img{
+        width: 300px;
+    }  
+    .section3 .box2 {
+        margin-right: 0px;
+    } 
+    .section3 .box1 h1{
+        margin-bottom: 20px;
+        font-size: 18px;
+    
+    }
+    .section3 .box1 p{
+        margin-bottom: 20px;
+        font-size: 13px;
+    
+    }
+}
